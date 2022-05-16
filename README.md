@@ -34,6 +34,9 @@ Download data:
 Before training a model, you need to install `joeynmt` within the virtual environment. Please refer to the exercise instructions for the details.
 
 Train a model:
+- First: adjust the train.sh in the way, that the `model_name` corresponds to the current joeyNMT Branch your on, e.g.: postnorm Branch = deen_transformer_postnorm
+
+Run the script:
 
     ./scripts/train.sh
 
